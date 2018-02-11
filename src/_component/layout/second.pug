@@ -1,13 +1,16 @@
 doctype html
 html
     -
-        var baseUrl = 'http://localhost:3000'
+        var baseUrl = taskTarget === 'tmp' ?
+            '/' :
+            '/quick-blog/'
+        //- var baseUrl = 'http://localhost:3000'
         //-   var baseUrl = 'https://st3ve89.github.io/quick-blog/'
     block config
     head
         title=title
         meta(name="description" ,content=description)
-        link(rel="stylesheet", href=`${baseUrl}/style.css`)
+        link(rel="stylesheet", href=`${baseUrl}style.css`)
         //- link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
     body
         include ../welcome/welcome
