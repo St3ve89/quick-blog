@@ -13,7 +13,7 @@ block content
                         each paragraph in something.data
                             p=paragraph
                     .blockquote-footer
-                        a(href=`${baseUrl}${something.link}, target="_blank"`)=something.source
+                        a(href=something.link, target="_blank")=something.source
 
             if something.type == 'pre'
                 h3.pre-title=something.title
@@ -40,6 +40,6 @@ block content
             if something.type == 'hr'
                 hr
             if something.type == 'img'
-                img(src=`${baseUrl}${something.src}`)
+                img(src=something.src)
         //- pre=JSON.stringify(template.head, null, 4)
         //- pre=JSON.stringify(template.body, null, 4)
