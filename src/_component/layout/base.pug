@@ -1,16 +1,40 @@
 doctype html
 html
     -
-        var baseUrl = 'http://localhost:3000'
-        //-   var baseUrl = 'https://st3ve89.github.io/quick-blog/'
+        //- if first condition is evaluated to true, then the block happens, otherwise the othe owe happens
+        //- if taskTarget value is equal to 'tmp',
+        var baseUrl = taskTarget === 'tmp' ?
+            //- then we assign to baseUrl the value of '/'
+            '/' :
+            //- and if taskTarget is anything else than 'tmp'
+            //- we assign the value of '/quick-blog/' to baseUrl
+            '/quick-blog/'
+        //-   var baseUrl = 'https://st3ve89.github.io/quick-blog/' , got it? yes thats cool
+        //- nice, yes thanks :) now you don't have to comment and uncomment anymore nice, can you just chek the about page and the continue button pls
+        //- what's wrong with the about? on the botton there is  a thing.. let me show you
+        //- horizontal line? yes
+        //- so it only happens on the desktop vesrion
+        //- by the way, this is one common problem, that usually arizes and a hard one to debug
+        //- looks fine now, the menu was pushing the layout too much
+        //- I suggest to keep watching the videos as I'm fixing whatever is not looking good on the way
+        //- this fix might be done later on, yes i will definetly, the continue look OK is just working on the home page
     block config
     head
         title=title
         meta(name="description" ,content=description)
-        link(rel="stylesheet", href=`${baseUrl}/style.css`)
+        if config.entry.css.inline
+        link(rel="stylesheet", href=`${inlinePath}`, inline)
+        //- we remove that slash so it doesnt become double
+        link(rel="stylesheet", href=`${baseUrl}style.css`)
         //- link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+        <link rel="stylesheet" href="/quick-blog/style.css">
     body
         include ../welcome/welcome
+
+        //- this will create <div id="continue"></div>
+        //- cool so far? yes just forgot to put it here -.- Have fun! thanks !!
+        #continue
+        
         .container
             block content
             include ../menu/menu

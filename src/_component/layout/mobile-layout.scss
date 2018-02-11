@@ -1,14 +1,12 @@
     // Quick CSS reset
-    html,
-    body {
-        height: 100%;
-        font-family: 'Open Sans'
-    }
-    
-    html {
-        font-size: 10px;
-    }
-    
+    // html,
+    // body {
+    //     height: 100%;
+    //     font-family: 'Open Sans'
+    // }
+    // html {
+    //     font-size: 10px;
+    // }
     @media screen and (min-width: 25em) {
         html {
             font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400));
