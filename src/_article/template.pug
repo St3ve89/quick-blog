@@ -24,11 +24,23 @@ block content
                 ul
                     each listItem in something.data
                         li=listItem
+            if something.type == 'ol'
+                ol
+                    each listItem in something.data
+                        li=listItem
 
-            if something.type == 'h3'
+            if something.type == 'h1'
                 h3=something.data
             
             if something.type == "h2"
+                h2=something.data
+            if something.type == "h3"
+                h2=something.data
+            if something.type == "h4"
+                h2=something.data
+            if something.type == "h5"
+                h2=something.data
+            if something.type == "h6"
                 h2=something.data
             if something.type == "paragraph" || something.type == "p"
                 each paragraph in something.data
