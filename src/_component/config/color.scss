@@ -1,4 +1,4 @@
-$theme: 'zest';
+$theme: 'greenish';
 $color-normal: #f1f1f1;
 $color-dark: #000;
 @if ($theme=='pickled-bluewood') {
@@ -16,6 +16,16 @@ $color-dark: #000;
     $color-dark: #f39c12;
 }
 
+@if ($theme=='greenish') {
+    $color-normal: #5CDB95;
+    $color-dark: #379683;
+}
+
 $color-athens-gray: #e7e9ec;
 $color-golden-grass: #dd9a2d;
 $color-white: #fff;
+$color-catalina-blue: #05386B;
+$color-lochinvar: #379683;
+$color-pastal-green:#5CDB95;
+$color-algae-green: #8EE4AF;
+$color-loafer: #EDF5E1;

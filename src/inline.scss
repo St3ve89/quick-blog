@@ -25,7 +25,7 @@ html {
     justify-content: center;
     background-image: radial-gradient(ellipse, $color-normal, $color-dark);
     h1 {
-        color: $color-white;
+        color: $color-catalina-blue;
         font-weight: bold;
         font-size: 4rem;
         margin: 1rem;
@@ -38,13 +38,13 @@ html {
         padding: 2rem;
     }
     a.scroll-down {
-        color: $color-white;
+        color: $color-catalina-blue;
         text-decoration: none;
         font-size: 1rem;
         padding: 1rem;
         border-radius: 0.3rem;
         margin: 1rem;
-        border: 0.1rem solid $color-white;
+        border: 0.1rem solid $color-catalina-blue;
         position: relative;
         background-color: $color-dark;
         padding-right: 1.3rem;
