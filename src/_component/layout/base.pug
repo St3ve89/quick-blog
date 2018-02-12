@@ -17,9 +17,8 @@ html
         if config.entry.css.inline
         link(rel="stylesheet", href=`${inlinePath}`, inline)
         //- we remove that slash so it doesnt become double
-        link(rel="stylesheet", href=`${baseUrl}style.css`)
         //- link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
-        <link rel="stylesheet" href="/quick-blog/style.css">
+        //- <link rel="stylesheet" href="/quick-blog/style.css">
     body
         include ../welcome/welcome
 
@@ -31,3 +30,4 @@ html
             block content
             include ../menu/menu
             include ../footer/footer
+link(rel="stylesheet", href=`${baseUrl}style.css`)
