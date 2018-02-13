@@ -1,0 +1,11 @@
+extend ../_component/layout/base
+block config
+    -
+        var title='PUG introduction';
+        var description='Discover PUG language for beginners';
+block content
+    .content
+        h2  Read more to find out how PUG language is working
+        .list-wrapper
+            each article in data.pug
+                include ../_component/article/article

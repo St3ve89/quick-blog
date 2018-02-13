@@ -1,0 +1,19 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "PUG Introduction",
+        "description": "Pug is the middleman."
+    },
+    "body": [{
+        "type": "h2",
+        "data": "What is PUG?"
+    }, {
+        "type": "p",
+        "data": [
+            "To understand Pug, you need to remember that the browser reads HTML and CSS and then displays formatted images and text to the client based on what that HTML and CSS tells it to do. Pug is a template engine for Node.js. A template engine allows us to inject data and then produce HTML."
+        ]
+    }]
+}

@@ -1,0 +1,9 @@
+[{
+    "title": "What is PUG?",
+    "link": "/article/pug-whatis",
+    "description": " At run time, Pug (and other template engines) replace variables in our file with actual values, and then send the resulting HTML string to the client."
+}, {
+    "title": "PUG how to",
+    "link": "/article/pug-howto",
+    "description": "Using Pug is just as easy."
+}]

@@ -1,0 +1,38 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "How do we use Pug?",
+        "description": "The same way we use other template engines."
+    },
+    "body": [{
+        "type": "h2",
+        "data": "Using Pug is just as easy."
+    }, {
+        "type": "p",
+        "data": [
+            "Here are the three steps:"
+        ]
+    }, {
+        "type": "ol",
+        "data": [
+            "Install Pug into your project: npm install pug --save",
+            "Set up your view engine: app.set(‘view engine’, ‘pug’)",
+            "Create a .pug file"
+        ]
+    }, {
+        "type": "h3",
+        "data": [
+            "Pug is awesome"
+        ]
+    }, {
+        "type": "ul",
+        "data": [
+            "When you write with Pug, you write code that looks like paragraphs. This greatly improves code-readability and streamlines projects with multiple developers.",
+            "There are no closing tags with Pug. Pug makes use of indentation to determine the nesting of tags. There are even shorthands for classes (.) and IDs (#)",
+            "Most importantly, we can write JavaScript that actually (almost/kind of) looks like JavaScript within our pug files."
+        ]
+    }]
+}
