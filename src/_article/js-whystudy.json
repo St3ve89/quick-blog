@@ -1,0 +1,21 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "Why Study JavaScript?",
+        "description": "Because JavaScript is awesome"
+    },
+    "body": [{
+        "type": "h2",
+        "data": "JavaScript is one of the 3 languages all web developers must learn:"
+    }, {
+        "type": "ol",
+        "data": [
+            "HTML to define the content of web pages",
+            "CSS to specify the layout of web pages",
+            "JavaScript to program the behavior of web pages"
+        ]
+    }]
+}
