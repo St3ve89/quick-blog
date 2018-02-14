@@ -1,0 +1,11 @@
+extend ../_component/layout/base
+block config
+    -
+        var title='Icons Tutorial';
+        var description='Discover how to add Icons to your project';
+block content
+    .content
+        h2  Read more to find out how to add Icons to your projects
+        .list-wrapper
+            each article in data.icon
+                include ../_component/article/article

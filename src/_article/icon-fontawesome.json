@@ -1,0 +1,28 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "Font Awesome Icons",
+        "description": " "
+    },
+    "body": [{
+            "type": "h2",
+            "data": "Adding Font Awesome Icons to our project is AWESOME"
+        },
+        {
+            "type": "p",
+            "data": ["To use the Font Awesome icons, add the following line inside the <head> section of your HTML page: <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> Note: No downloading or installation is required!"]
+        }, {
+            "type": "h2",
+            "data": "A Simple Font Awesome Icon"
+        }, {
+            "type": "pre",
+            "title": "Example:",
+            "data": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<link rel='stylesheet' href='https://\ncdnjs.cloudflare.com/ajax/libs/font\n-awesome/\n4.7.0/css/font-awesome.min.css'>\n</head>\n<body>\n\n<i class='fa fa-cloud'></i>\n<i class='fa fa-heart'></i>\n<i class='fa fa-car'></i>\n<i class='fa fa-file'></i>\n<i class='fa fa-bars'></i>\n\n</body>\n</html>"
+            ]
+        }
+    ]
+}

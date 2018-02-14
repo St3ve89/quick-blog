@@ -1,0 +1,28 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "Google Icons",
+        "description": " "
+    },
+    "body": [{
+            "type": "h2",
+            "data": "Adding Google Icons to our project"
+        },
+        {
+            "type": "p",
+            "data": ["To use the Google icons, add the following line inside the <head> section of your HTML page: <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'> Note: No downloading or installation is required!"]
+        }, {
+            "type": "h2",
+            "data": "A Simple Google Icon"
+        }, {
+            "type": "pre",
+            "title": "Example:",
+            "data": [
+                "<!DOCTYPE html>\n<html>\n<head>\n<link rel='stylesheet' href='https://fonts\n.googleapis.com/icon\n?family=Material+Icons'>\n</head>\n<body>\n\n<i class='material-icons'>cloud</i>\n<i class='material-icons'>favorite</i>\n<i class='material-icons'>attachment</i>\n<i class='material-icons'>computer</i>\n<i class='material-icons'>traffic</i>\n\n</body>\n</html>"
+            ]
+        }
+    ]
+}

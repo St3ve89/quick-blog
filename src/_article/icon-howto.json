@@ -1,0 +1,19 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "How do we add icons to our project?",
+        "description": " "
+    },
+    "body": [{
+            "type": "h2",
+            "data": "Adding icons to our project is just as easy."
+        },
+        {
+            "type": "p",
+            "data": ["The < i > and < span > elements are widely used to add icons. All the icons in the icon libraries below, are scalable vector icons that can be customized with CSS(size, color, shadow, etc.)"]
+        }
+    ]
+}
