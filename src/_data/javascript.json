@@ -2,4 +2,8 @@
     "title": "Why Study JavaScript?",
     "link": "/article/js-whystudy",
     "description": "JavaScript is one of the 3 languages all web developers must learn"
+}, {
+    "title": "JavaScript Introduction",
+    "link": "/article/js-introduction",
+    "description": "This page contains some examples of what JavaScript can do."
 }]

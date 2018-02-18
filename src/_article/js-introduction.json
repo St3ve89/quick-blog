@@ -1,0 +1,23 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "JavaScript Introduction",
+        "description": "This page contains some examples of what JavaScript can do."
+    },
+    "body": [{
+        "type": "h2",
+        "data": "JavaScript Can Change HTML Content"
+    }, {
+        "type": "paragraph",
+        "data": ["One of many JavaScript HTML methods is getElementById(). This example uses the method to 'find' an HTML element (with id='demo') and changes the element content (innerHTML) to 'Hello JavaScript':"]
+    }, {
+        "type": "pre",
+        "title": "Example:",
+        "data": [
+            "document.getElementById('demo').innerHTML = 'Hello JavaScript';"
+        ]
+    }]
+}
