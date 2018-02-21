@@ -1,0 +1,21 @@
+{
+    "config": {
+        "//": "set publish to false to skip this in production",
+        "publish": true
+    },
+    "head": {
+        "title": "Day 1:",
+        "description": " "
+    },
+    "body": [{
+        "type": "h2",
+        "data": "Lets talk about what techniques I used:"
+    }, {
+        "type": "ol",
+        "data": [
+            "node",
+            "External and internal style sheets (in the head section)",
+            "Browser default"
+        ]
+    }]
+}

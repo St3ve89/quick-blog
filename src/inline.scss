@@ -17,12 +17,15 @@ html {
 }
 
 .welcome {
+    width: 100%;
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    flex-direction: column;
     background-image: radial-gradient(ellipse, $color-normal, $color-dark);
     h1 {
         color: $color-catalina-blue;
@@ -32,7 +35,7 @@ html {
     }
     .welcome__description {
         line-height: 1.5;
-        padding: 0 0.5rem;
+        // padding: 0 0.5rem;
         font-size: 2rem;
         text-align: justify;
         padding: 2rem;

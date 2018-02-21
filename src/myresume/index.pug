@@ -1,0 +1,11 @@
+extend ../_component/layout/base
+block config
+    -
+        var title='MY-CV';
+        var description='Discover how I built MY-CV';
+block content
+    .content
+        h2  Read more if you want to know how I built MY-CV
+        .list-wrapper
+            each article in data.myresume
+                include ../_component/article/article
